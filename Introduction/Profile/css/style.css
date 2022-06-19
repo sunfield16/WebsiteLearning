@@ -1,0 +1,44 @@
+/* CSSがutf8で書かれていることを明示しておく */
+/* @see https://developer.mozilla.org/ja/docs/Web/CSS/@charset */
+@charset "UTF-8";
+
+html
+{
+    /* ブラウザのフォント設定に合わせるようにする */
+    font-size: 100%;
+}
+
+img
+{
+    /* 画像が画面からはみ出ないように最大幅を指定 */
+    max-width: 100%;
+    max-height: auto;
+}
+
+#header
+{
+    /* FlexBoxで横並びにする */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.site-title
+{
+    width: 120px;
+    padding: 0px;
+}
+
+.nav-menu ul
+{
+    /* メニューは横並びにする */
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu li
+{
+    /* 箇条書きリストの「・」は表示させない */
+    list-style-type: none;
+    padding: 0px 16px;
+}
