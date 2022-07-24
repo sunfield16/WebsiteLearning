@@ -42,3 +42,14 @@ img
     list-style-type: none;
     padding: 0px 16px;
 }
+
+#main-visual img
+{
+    /* 横幅は画面全体に広げて、縦幅は固定にする */
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+
+    /* コンテナを埋めるように拡大・縮小 */
+    object-fit: cover;
+}
