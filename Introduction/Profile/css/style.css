@@ -53,3 +53,33 @@ img
     /* コンテナを埋めるように拡大・縮小 */
     object-fit: cover;
 }
+
+.about-header
+{
+    text-align: center;
+}
+
+.about-content
+{
+    /* 横並びにして、横軸・縦軸ともに中央揃えで配置する */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content img
+{
+    /* 画像を丸く切り取って小さく表示 */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    /* 画像とテキストの位置が近すぎるのでmarginで少し離す */
+    margin-right: 32px;
+}
+
+.about-content-text
+{
+    text-align: left;
+}
