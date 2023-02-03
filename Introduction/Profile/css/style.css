@@ -57,6 +57,7 @@ img
 .about-header
 {
     text-align: center;
+    text-decoration: underline;
 }
 
 .about-content
@@ -87,6 +88,7 @@ img
 .bicycle-header
 {
     text-align: center;
+    text-decoration: underline;
 }
 
 .bicycle-content
