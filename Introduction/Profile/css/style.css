@@ -83,3 +83,30 @@ img
 {
     text-align: left;
 }
+
+.bicycle-header
+{
+    text-align: center;
+}
+
+.bicycle-content
+{
+    text-align: center;
+}
+
+.bicycle-content ul
+{
+    /* 横並びにして、横軸・縦軸ともに中央揃えで配置する */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bicycle-content li
+{
+    list-style-type: none;
+
+    /* 画像が大きいので少し小さめに */
+    width: 30%;
+}
