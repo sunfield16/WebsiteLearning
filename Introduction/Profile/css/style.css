@@ -119,3 +119,25 @@ img
     font-size:0.7rem;
     color:gainsboro;
 }
+
+/* AboutとBicycleはレスポンシブ対応のため、画面の横幅に合わせてスタイル変更 */
+@media screen and (max-width: 600px)
+{
+    /* Aboutは縦積みで表示 */
+    .about-content
+    {
+        flex-direction: column;
+    }
+
+    /* Bicycleの要素を縦積みで表示 */
+    .bicycle-content ul
+    {
+        flex-direction: column;
+    }
+
+    /* Bicycle画像は横幅いっぱいにする */
+    .bicycle-content li
+    {
+        width: 100%;
+    }
+}
