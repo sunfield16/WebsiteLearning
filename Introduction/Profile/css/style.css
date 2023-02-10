@@ -112,3 +112,10 @@ img
     /* 画像が大きいので少し小さめに */
     width: 30%;
 }
+
+#footer
+{
+    text-align:center;
+    font-size:0.7rem;
+    color:gainsboro;
+}
